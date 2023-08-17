@@ -12,7 +12,7 @@ public class BaseTest {
 	public void setup() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://keybooks.ro/");
+		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 	}
 
 	@AfterClass
